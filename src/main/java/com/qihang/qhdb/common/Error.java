@@ -1,4 +1,4 @@
-package com.qihang.qhdb.backend.common;
+package com.qihang.qhdb.common;
 
 /**
  * @Author: zhqihang

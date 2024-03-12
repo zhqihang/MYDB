@@ -1,6 +1,6 @@
 package com.qihang.qhdb.backend.tm;
 
-import com.qihang.qhdb.backend.common.Error;
+import com.qihang.qhdb.common.Error;
 import com.qihang.qhdb.backend.utils.Panic;
 import com.qihang.qhdb.backend.utils.Parser;
 
