@@ -220,6 +220,13 @@ public class Recover {
     private static final int OF_INSERT_OFFSET = OF_INSERT_PGNO+4;
     private static final int OF_INSERT_RAW = OF_INSERT_OFFSET+2;
 
+    /**
+     * 写入日志
+     * @param xid
+     * @param pg
+     * @param raw
+     * @return
+     */
     public static byte[] insertLog(long xid, Page pg, byte[] raw) {
         byte[] logTypeRaw = {LOG_TYPE_INSERT};
         byte[] xidRaw = Parser.long2Byte(xid);

@@ -1,5 +1,8 @@
 package com.qihang.qhdb.backend.utils;
 
+/**
+ * uid = 页号 + 偏移量
+ */
 public class Types {
     public static long addressToUid(int pgno, short offset) {
         long u0 = (long)pgno;
