@@ -1,6 +1,6 @@
 package com.qihang.qhdb.backend.dm.page;
 
-import com.qihang.qhdb.backend.dm.PageCache.PageCache;
+import com.qihang.qhdb.backend.dm.pageCache.PageCache;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

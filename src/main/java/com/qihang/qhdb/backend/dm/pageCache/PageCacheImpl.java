@@ -1,4 +1,4 @@
-package com.qihang.qhdb.backend.dm.PageCache;
+package com.qihang.qhdb.backend.dm.pageCache;
 
 import com.qihang.qhdb.backend.common.AbstractCache;
 import com.qihang.qhdb.backend.dm.page.Page;

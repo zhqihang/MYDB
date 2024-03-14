@@ -1,5 +1,6 @@
 package com.qihang.qhdb.backend.dm.page;
 
+import com.qihang.qhdb.backend.dm.pageCache.PageCache;
 import com.qihang.qhdb.backend.utils.RandomUtil;
 
 import java.util.Arrays;
@@ -22,7 +23,11 @@ public class PageOne {
     private static final int OF_VC = 100;
     private static final int LEN_VC = 8;
 
-
+    public static byte[] InitRaw() {
+        byte[] raw = new byte[PageCache.PAGE_SIZE];
+        setVcOpen(raw);
+        return raw;
+    }
     // 启动时设置初始字节
     public static void setVcOpen(Page pg) {
         pg.setDirty(true);
