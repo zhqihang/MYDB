@@ -36,4 +36,9 @@ public class Error {
     public static final Exception DuplicatedTableException = new RuntimeException("Duplicated table!");
     public static final Exception TableNotFoundException = new RuntimeException("Table not found!");
 
+
+    // parser
+    public static final Exception InvalidCommandException = new RuntimeException("Invalid command!");
+    public static final Exception TableNoIndexException = new RuntimeException("Table has no index!");
+
 }
