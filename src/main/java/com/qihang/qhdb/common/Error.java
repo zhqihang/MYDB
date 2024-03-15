@@ -41,4 +41,8 @@ public class Error {
     public static final Exception InvalidCommandException = new RuntimeException("Invalid command!");
     public static final Exception TableNoIndexException = new RuntimeException("Table has no index!");
 
+    // transport
+    public static final Exception InvalidPkgDataException = new RuntimeException("Invalid package data!");
+
+
 }
